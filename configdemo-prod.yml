@@ -4,15 +4,3 @@ build:
   name: "Default-Build-changes"
   type: "Default Build changes"
 
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-
-management:
-  endpoint:
-    web:
-      exposure:
-        include: "*"
